@@ -4,7 +4,7 @@ title: me | mittens
 ---
 
 ```term
-~ $ cat mittens
+~ $ cat mittens.txt
 ```
 
 "Hello there 😼
