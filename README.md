@@ -1,6 +1,7 @@
-<div style="float: left; margin-right: 20px; border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
-  <img src="assets/img/asteroidex-logo.png" alt="Image Description" style="width: 100%; height: 100%; object-fit: cover;">
+<div style="float: left; margin-right: 20px;">
+  <img src="assets/img/asteroidex-logo.png" alt="Image Description" width="100" height="100" style="border-radius: 50%; overflow: hidden;">
 </div>
+
 
 ### [ASTEROID-EX](asteroidex.com)
 ```
