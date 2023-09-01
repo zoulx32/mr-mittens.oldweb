@@ -16,7 +16,7 @@ My studies have primarily revolved around Operating Systems, Penetration Testing
 Networking and I thrive on solving security challenges within these domains.
 
 Some of the 
-standout aspects of my expertise lies in decentralized networks like Tor & P2P
+standout aspects of my expertise lies in decentralized networks like Tor & P2P.
 Operating systems, FOSS [Finding alternatives for bloated consumer tech] & Data privacy.
 
 
