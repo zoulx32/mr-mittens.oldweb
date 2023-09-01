@@ -49,7 +49,6 @@ Use [Brave](https://brave.com/download) (if posible) & [Mozilla](https://www.moz
 
 ## Social Media
 
-![s1](https://github.com/Mr-Mittens/Navigating-through-the-internet/blob/main/main/bg.jpg)
 
 **Use it wisely feed them less data if you can, but if you are a content creator then feed less personal info as much as possible.**
 
