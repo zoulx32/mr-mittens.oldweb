@@ -1,6 +1,6 @@
 ---
 layout: page
-title: nthng | mittens
+title: me | mittens
 ---
 
 ```term
