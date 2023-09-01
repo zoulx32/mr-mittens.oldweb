@@ -13,7 +13,7 @@ utils | projects
 
 [Ra-men](https://github.com/Mr-Mittens/Ra-men) >> Simple hyprland config for smooth workflow.
 
-[Space legion](https://spacelegion.org) >> A community focused on Security, Privacy and anonymity.
+[Space legion](https://spacelegion.org) >> A community focused on Security, Privacy and anonymity [Former member].
 
 
 
