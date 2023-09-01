@@ -1,13 +1,13 @@
 ---
 layout: page
-title: projects | mittens
+title: utils | mittens
 ---
 
 ```term
-projects 
+utils | projects 
 ```
 
-### These are my projects that you can find on [GitHub](https://github.com/Mr-Mittens?tab=repositories):
+### These are my projects that you can find on [Github](https://github.com/Mr-Mittens?tab=repositories):
 
 [Navigating through the internet](https://github.com/Mr-Mittens/Navigating-through-the-internet) >> Guide for internet zoomers.
 
