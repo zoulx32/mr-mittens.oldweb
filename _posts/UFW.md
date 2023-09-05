@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Port Cheat Sheet"
+title: "UFW"
 date: 2023-09-05  
 ---
 
