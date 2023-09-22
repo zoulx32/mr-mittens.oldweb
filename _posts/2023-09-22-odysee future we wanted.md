@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Odysee W or L"
+title: "Odysee the future we wanted"
 date: 2023-09-22
 ---
 
@@ -37,6 +37,6 @@ sharing.
 
 ### What to expect & Conclusion!
 
-`"LBRY, now dissolved with tokens in hand due to a lawsuit, leaves room for Odysee to continue its journey. Perhaps, one day, these power dynamics will shift, allowing LBRY to rise once more."`
+`"LBRY, now dissolved with tokens in hand due to a lawsuit, leaves room for Odysee to continue its journey. Perhaps, one day, these power dynamics will shift, allowing Odysee to rise once more."`
 
 
