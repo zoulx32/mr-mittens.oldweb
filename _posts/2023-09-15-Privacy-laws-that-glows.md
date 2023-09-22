@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Privacy-laws"
+title: "Privacy laws that Glows"
 date: 2023-09-15  
 ---
 
-**This article is only focusing on unbiased info about the "exciting time in the world around me & you "!**
+**This article is only focusing on unbiased info about the exciting time in the world around me & you !**
 
 
 >Privacy is essential because it protects personal freedom, 
@@ -57,5 +57,6 @@ data processing. However, the DPDP Act includes significant
 provisions for certain aspects like data subject rights. GDPR, on 
 the other hand, is known for its stringent requirements and 
 broader scope.this adds up to be kept in mind ! 
+
 
 
