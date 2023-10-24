@@ -3,9 +3,6 @@ layout: page
 title: utils | mittens
 ---
 
-```term
-~ $ utils | projects 
-```
 
 ### These are my projects that you can find on [Github](https://github.com/Mr-Mittens?tab=repositories):
 
@@ -13,7 +10,7 @@ title: utils | mittens
 
 [Ra-men](https://github.com/Mr-Mittens/Ra-men) >> Simple hyprland config for smooth workflow.
 
-[Space legion](https://spacelegion.org) >> A community focused on Security, Privacy and anonymity [Former member].
+[Space legion](https://spacelegion.org) >> A community focused on Security, Privacy and anonymity [Depreciated].
 
-Explore my [Gists!](https://gist.github.com/Mr-Mittens)
+[Gists!](https://gist.github.com/Mr-Mittens)
 
