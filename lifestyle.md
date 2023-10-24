@@ -7,9 +7,9 @@ title: lifestyle | thoughts & ideas
 ~ $ lifestyle | thoughts & ideas
 ```
 
-### Thoughts & ideas
+### Just a space where i etch some things.
 
-Below is a list of my projects:
+
 
 - [**Life goes on**](https://)
   
@@ -18,13 +18,12 @@ Below is a list of my projects:
 - [**Makin art**](https://github.com/mr-mittens/art)
 
 
-...
 
-just a space where i etch some things.
 
----
 
-**Note:** hey! these are just my brain thinking out loud 🎭.
+
+
+```**Note:** hey! these are just my brain thinking out loud 🎭.```
 
 
 
