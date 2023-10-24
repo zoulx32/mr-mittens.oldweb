@@ -14,3 +14,5 @@ Networking and I thrive on solving security challenges within these domains.
 Some of the standout aspects of my expertise lies in decentralized networks like Tor & P2P.
 Operating systems [ studying operating systems, or a system in general], FOSS [Finding alternatives
 for bloated consumer tech] & Data privacy.
+
+```
