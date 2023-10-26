@@ -1,6 +1,6 @@
 ---
 layout: page
-title: posts | mittens
+title: Articles | mittens
 ---
 
 <section>
