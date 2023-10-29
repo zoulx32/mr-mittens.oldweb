@@ -27,7 +27,7 @@ If the above command returns a value of 0 in your machine, your processor cannot
 
 **Note** : If the output is zero then go to bios settings and enable VT-x (Virtualization Technology Extension) for Intel processor and AMD-V for AMD processor.
 
-```
+``` term
 ~ $ grep -E --color '(vmx|svm)' /proc/cpuinfo
 ```
 Using this command you will get information about your CPU [Intel or AMD] If the red color output text is VMX then it 
@@ -41,13 +41,13 @@ is Intel whereas SVM means AMD.
 
 ```
 **Start & Enable KVM service**
-```
+``` term
 ~ $ sudo systemctl enable --now libvirtd
 ```
 
 **Check Libvirtd service is started**
 
-```
+``` term
 ~ $ sudo systemctl status libvirtd.service
 ```
 
@@ -95,6 +95,6 @@ Start `virt-manager`:
 ```
 
 
-**quick note**
->operating system may end up writing sensitive information in RAM to swap space on your disk, so using a virtual 
+**quick note** :
+operating system may end up writing sensitive information in RAM to swap space on your disk, so using a virtual 
 machine for anonymity is not always the best idea!
