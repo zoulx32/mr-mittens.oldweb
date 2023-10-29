@@ -3,7 +3,5 @@ layout: page
 title: chatbox | mittens
 ---
 
-```term
-~ $ chatbox under maintenance !
-```
 
+![alt text](assets/img/underconstruction.gif)
