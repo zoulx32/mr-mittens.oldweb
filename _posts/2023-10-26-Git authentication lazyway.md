@@ -10,7 +10,7 @@ a way to use ssh for your speedy workflow in a secure way.`linux`
 **Configuring with credential-helper**
 
 ``` term
-~ $ git config --globalcredential.helper 'cache --timeout=86400'
+~ $ git config --global credential.helper 'cache --timeout=86400'
 ```
 yes, you can use the credential manager and set the `timeout=86400` its seconds here, 24hrs 
 you can set days, hours anytime you want.
@@ -18,7 +18,7 @@ you can set days, hours anytime you want.
 or, you can just store the passwords with 
 
 ```term
-~ $ git config --globalcredential.helper store
+~ $ git config --global credential.helper store
 ```
 but it saves your password to your ~/.gitconfig in plain text which is not cool,
 so another much secure way is by using ssh.
