@@ -54,5 +54,14 @@ copy the key that we just created to clipboard--
 In Last step visit your git profile settings-> ssh & gpg keys
 click create new ssh key and paste the keys copied and its done !
 
+```
+If you were working on a project and want to switch to SSH for authentication then you have edit that .git file manually or use this command mentioned below ..go to the project folder .[It just changes the https url to ssh url example : https://github.com/urname/nthng.git will be changed to git@github.com:urname/nthng.git]
+
+```
+
+``` term
+~ $ git remote set-url origin git@github.com:urname/nthng.git
+```
+
 >Tip `whenever you are going for a clone just switch it to ssh [git@github.com:username/nothing.git] so no further tinkering is required for working on your projects`
 
