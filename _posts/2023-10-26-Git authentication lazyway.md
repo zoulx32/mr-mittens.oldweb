@@ -63,5 +63,5 @@ If you were working on a project and want to switch to SSH for authentication th
 ~ $ git remote set-url origin git@github.com:urname/nthng.git
 ```
 
->Tip `whenever you are going for a clone just switch it to ssh [git@github.com:username/nothing.git] so no further tinkering is required for working on your projects`
+**Tip** : whenever you are going for a clone just switch it to ssh `[git@github.com:username/nothing.git]` so no further tinkering is required for working on your projects.
 
