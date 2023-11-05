@@ -95,6 +95,7 @@ Start `virt-manager`:
 ```
 
 Reboot recommended !
+
 **quick note** :
 operating system may end up writing sensitive information in RAM to swap space on your disk, so using a virtual 
 machine for anonymity is not always the best idea!
