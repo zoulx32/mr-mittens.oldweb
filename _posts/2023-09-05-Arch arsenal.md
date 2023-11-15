@@ -139,3 +139,6 @@ use the ufw command-line tool to manage your firewall rules for simplicity and s
 | 8000-8099   | HTTP Proxy | Common ports for proxy servers                      |
 | 9000-9099   | Ephemeral  | Commonly used for application-specific purposes     |
 | 27017       | MongoDB    | MongoDB Database Server                             |
+
+
+[INCOMPLETE]
