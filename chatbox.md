@@ -6,11 +6,6 @@ title: chatbox | mittens
 
 
 <div id="chatbox">
-<script>
-window['CboxReady'] = function (Cbox) {
-	Cbox('button', '5-947680-hANKtC');
-}
-</script>
-<script src="https://static.cbox.ws/embed/2.js" async></script>
+<iframe src="https://www5.cbox.ws/box/?boxid=947680&boxtag=hANKtC" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
 
 </div>	
