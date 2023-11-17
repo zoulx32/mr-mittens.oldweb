@@ -8,8 +8,8 @@ Windows dual boot seriously kills ! unless you have a dedicated SSD for it and s
 
 [WIN 10](https://www.microsoft.com/en-in/software-download/windows10ISO)
 
-[VirtIO Driver ISO](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
-
+[VirtIO Driver ISO](https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md)
+: **choose the stable !**
 
 for KVM configuring and follow up
 Checkout [kvm-install](https://asteroidex.com/The-KVM-guide) 
