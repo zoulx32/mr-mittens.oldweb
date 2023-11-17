@@ -31,7 +31,11 @@ just **checkout**.
 
 [**Rusty-exercises**](https://exercism.org/tracks/rust/exercises)
 
-[**Rusty-cookbook**](https://rust-lang-nursery.github.io/rust-cookbook/)
+[**Rusty-cookbook**](https://rust-lang-nursery.github.io/rust-cookbook)
+
+[**Rust-by-practise**](https://practice.rs/why-exercise.html) or [**Rustlings**](https://rustlings.cool)
+
+
 
 [Rusty-ext1](https://fasterthanli.me/articles/a-half-hour-to-learn-rust) other materials will be also updated, 
 based on beginner friendly nature.
