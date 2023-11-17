@@ -51,7 +51,7 @@ sudo systemctl enable --now libvirtd
 ``` term
 sudo systemctl status libvirtd.service
 ```
-Reboot !
+>**Reboot !**
 
 **If you want you can configure [VIRSH](https://wiki.debian.org/KVM) [VIRSH is a command to directly interact with our VMs from terminal].**
 
@@ -97,9 +97,9 @@ Start `virt-manager`:
 virt-manager
 ```
 
-Reboot !
+>**Reboot** !
 
-[checkout win 10 install in KVM](https://asteroidex.com/win-10-vm-in-linux)
+[checkout win 10 install in KVM](https://asteroidex.com/Win-10-vm-in-linux)
 
 **quick note** :
 operating system may end up writing sensitive information in RAM to swap space on your disk, so using a virtual 
