@@ -11,6 +11,8 @@ Windows dual boot seriously kills ! unless you have a dedicated SSD for it and s
 [VirtIO Driver ISO](https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md)
 : **choose the stable !**
 
+[docs-proxmox](https://pve.proxmox.com/wiki/Performance_Tweaks)
+
 for KVM configuring and follow up
 Checkout [kvm-install](https://asteroidex.com/The-KVM-guide) 
 
