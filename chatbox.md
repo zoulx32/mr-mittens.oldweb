@@ -74,7 +74,7 @@ Make sure to send me your public key, else I will not be able to reply to you. n
 
 <div style="float: right; margin-left: 20px;">
 <div id="chatbox">
-<iframe src="https://www5.cbox.ws/box/?boxid=947680&boxtag=hANKtC" width="30%" height="200" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+<iframe src="https://www5.cbox.ws/box/?boxid=947680&boxtag=hANKtC" width="80%" height="400" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
 </div>
 </div>	
 
