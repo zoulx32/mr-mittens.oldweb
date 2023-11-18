@@ -9,7 +9,7 @@ Below is my public key. Save it to a file, say `mittens`, open a terminal emulat
 
 <details>
   <summary>
-    <a href="https://github.com/port19x/rapture">pgp-keys 🔑</a>
+    <a href="mittens28.req3f@aleeas.com">pgp-keys 🔑</a>
     
   </summary>
   <pre>
