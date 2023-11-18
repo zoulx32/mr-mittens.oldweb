@@ -1,6 +1,6 @@
 ---
 layout: page
-title: chatbox | mittens
+title: contact | mittens
 ---
 
 ### PGP encryption for emails (optional)
@@ -9,7 +9,7 @@ Below is my public key. Save it to a file, say `mittens`, open a terminal emulat
 
 <details>
   <summary>
-    <a href="mittens28.req3f@aleeas.com">pgp-keys 🔑</a>
+    <a href="mailto:mittens28.req3f@aleeas.com">pgp-keys 🔑</a>
     
   </summary>
   <pre>
