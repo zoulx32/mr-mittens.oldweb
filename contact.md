@@ -72,10 +72,9 @@ Pdy+vqnk3vIXfvnRGzP4FY9QJhHYoa+T2pS4
 Make sure to send me your public key, else I will not be able to reply to you. new to this concept [let's go](https://emailselfdefense.fsf.org/en)
 
 
-<div style="float: right; margin-left: 20px;">
+
 <div id="chatbox">
-<iframe src="https://www5.cbox.ws/box/?boxid=947680&boxtag=hANKtC" width="80%" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
-</div>
+<iframe src="https://www5.cbox.ws/box/?boxid=947680&boxtag=hANKtC" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
 </div>	
 
 
