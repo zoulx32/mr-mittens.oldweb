@@ -82,7 +82,7 @@ Make sure to send me your public key, else I will not be able to reply to you. n
 
 Feel free to use this button to link back to my website.
 
-[![Web Button](https://github.com/Mr-Mittens/mr-mittens.github.io/blob/main/assets/img/webring/mm-1.gif)](https://asteroidex.com)
+[![Web Button](/assets/img/webring/mm-1.gif)](https://asteroidex.com)
 
 ```html
 <a href="https://asteroidex.com" target="_blank"><img src="https://github.com/Mr-Mittens/mr-mittens.github.io/blob/main/assets/img/webring/mm-1.gif" width="88" height="31"></a>
