@@ -36,12 +36,6 @@ chsh -s /bin/bash
 
 ## Customizing .zshrc
 
-
-
-
-### Basic auto/tab complete
-
-
 ```
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -49,7 +43,7 @@ zmodload zsh/complist`
 setopt extendedglob`
 _comp_options+=(globdots)
 ```
->Enables autocompletion for zsh & other (optional)
+Enables autocompletion for zsh & other (optional)
 
 
 ### Installation of oh-my-zsh
@@ -59,16 +53,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 
-[Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+### [Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
-- add line in .zhrc
+add line in .zhrc
+
 ```
 ZSH_THEME="fino"
 ```
 
 ### History
 
-- add lines in .zhrc
+add lines in .zhrc (optional)
 
 ```
 HISTSIZE=10000
@@ -94,7 +89,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ```
 
-- add this line in .zhrc for plugins.
+add this line in .zhrc for plugins.
 
 ```
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
