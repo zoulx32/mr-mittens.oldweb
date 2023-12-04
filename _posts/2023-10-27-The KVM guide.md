@@ -63,7 +63,8 @@ sudo pacman -S qemu-system-x86 qemu-system-x86-firmware libvirt bridge-utils vir
 ```
 
 `Refer wiki` : 
-[QEMU](https://wiki.archlinux.org/index.php/QEMU)
+[Whonix](https://www.whonix.org/wiki/KVM#Debian)
+| [QEMU](https://wiki.archlinux.org/index.php/QEMU)
 | [libvirt](https://wiki.archlinux.org/index.php/Libvirt)
 | [libvirt clients](https://wiki.archlinux.org/index.php/Libvirt#Client)
 
@@ -73,9 +74,15 @@ sudo pacman -S qemu-system-x86 qemu-system-x86-firmware libvirt bridge-utils vir
 Add user to `libvirt` Group:
 
 ```term
-sudo usermod -aG libvirt <username>
+sudo adduser $USER libvirt 
 ```
 
+Add user to `libvirt-qemu`
+
+```
+sudo adduser $USER libvirt-qemu
+
+```
 
 ### **Systemctl Service libvirtd (Arch)**
 
@@ -100,6 +107,9 @@ virt-manager
 >**Reboot** !
 
 [checkout win 10 install in KVM](https://asteroidex.com/Win-10-vm-in-linux)
+
+
+[manipulating qcow2](https://www.whonix.org/wiki/KVM#Manipulating_QCOW2_Images)
 
 **quick note** :
 operating system may end up writing sensitive information in RAM to swap space on your disk, so using a virtual 
