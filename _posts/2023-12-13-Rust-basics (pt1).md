@@ -1,6 +1,6 @@
-## Rust Basics Cheat Sheet 📦
+# Rust Basics Cheat Sheet 📦
 
-### Variables and Types
+## Variables and Types
 
 Variables hold information. They can be changed (mutable) or stay the same (immutable).
 
@@ -14,7 +14,7 @@ let oranges = 10;
 
 
 
-### Constants
+## Constants
 
 Constants are values that cannot change throughout the program.
 
@@ -31,8 +31,19 @@ fn main() {
 - Constants must have explicit type annotations.
 - They can be accessed anywhere in the program.
 
+---
+---
+## Things to familiarize.
 
-### Scope
+- ### Comments
+
+Comments are like little notes to yourself or others reading your code.
+
+```rust
+// This is a comment! It won't affect the code.
+// It's just here to explain things.
+```
+- ### Scope
 
 In Rust, a scope defines the visibility and lifetime of variables and other items.
 
@@ -55,7 +66,7 @@ fn main() {
 - **Inner Scopes**: Variables declared in inner scopes are only accessible within that scope.
 - **Lifetime**: Variables are only valid within their defined scope.
 
-### `::` Operator
+- ### `::` Operator
 
 The `::` operator is used to access items within a scope, such as modules, functions, or constants.
 
@@ -77,7 +88,7 @@ fn main() {
 - **`::` Operator**: Used to access items within a specific scope (like modules or functions).
 - **Namespace Access**: Helps access items like functions, constants, or modules.
 
-### Shadowing
+- ### Shadowing
 
 Shadowing allows reusing the same variable name while changing its value or type.
 
@@ -97,7 +108,9 @@ fn main() {
 - It can change the value or type of the variable.
 - The new variable exists only within its scope (block or function).
 
-### Benefits of Shadowing
+
+
+- ### Benefits of Shadowing
 
 1. **Clarity**: Helps make code clearer by reusing names for different purposes.
 2. **Fine-tuning**: Allows adjustments or transformations without creating new variables.
@@ -106,7 +119,7 @@ fn main() {
 Remember, constants are fixed values throughout the program, while shadowing allows reusing a variable name for different purposes within a limited scope. Both concepts are powerful tools in Rust for managing and manipulating data. 
 
 
-### What is the Prelude?
+- ### What is the Prelude?
 
 The Rust Prelude is a collection of types, traits, and functions that Rust automatically imports into every Rust program.
 
@@ -167,7 +180,10 @@ fn main() {
 
 Remember, the Rust Prelude is imported by default into every Rust program, making these types, traits, functions, and macros immediately accessible without explicit imports. 
 
-### Basic Data Types
+---
+---
+
+## Basic Data Types
 
 Rust has different types of information it can handle, like numbers and words.
 
@@ -181,7 +197,7 @@ let hello = "Hello, Rust!"; // This is a bunch of letters.
 let letter = 'A';           // This is just one letter.
 ```
 
-### Functions
+## Functions
 
 Functions are like magic spells. You tell them what to do, and they do it!
 
@@ -192,7 +208,7 @@ fn add(a: i32, b: i32) -> i32 {
 }
 ```
 
-### Conditions and Loops
+## Conditions and Loops
 
 Rust can make decisions and do things many times!
 
@@ -215,14 +231,7 @@ loop {
 }
 ```
 
-## Comments
 
-Comments are like little notes to yourself or others reading your code.
-
-```rust
-// This is a comment! It won't affect the code.
-// It's just here to explain things.
-```
 
 ## Ownership and Borrowing
 
