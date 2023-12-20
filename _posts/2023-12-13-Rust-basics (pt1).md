@@ -31,6 +31,52 @@ fn main() {
 - Constants must have explicit type annotations.
 - They can be accessed anywhere in the program.
 
+
+### Scope
+
+In Rust, a scope defines the visibility and lifetime of variables and other items.
+
+```rust
+fn main() {
+    let a = 10; // Variable 'a' is valid within the 'main' function scope.
+
+    {
+        let b = 20; // Variable 'b' is valid within this inner scope.
+        println!("Inside inner scope: {}", b);
+    }
+
+    println!("Outside inner scope: {}", a);
+    
+    // println!("Outside inner scope: {}", b); // Uncommenting will result in an error.
+}
+```
+
+- **Scope**: Defines where a variable or item is accessible and valid.
+- **Inner Scopes**: Variables declared in inner scopes are only accessible within that scope.
+- **Lifetime**: Variables are only valid within their defined scope.
+
+### `::` Operator
+
+The `::` operator is used to access items within a scope, such as modules, functions, or constants.
+
+```rust
+mod my_module {
+    pub const MY_CONSTANT: i32 = 42;
+    
+    pub fn my_function() {
+        println!("Hello from my function!");
+    }
+}
+
+fn main() {
+    println!("The constant is: {}", my_module::MY_CONSTANT); // Accessing constant
+    my_module::my_function(); // Accessing function
+}
+```
+
+- **`::` Operator**: Used to access items within a specific scope (like modules or functions).
+- **Namespace Access**: Helps access items like functions, constants, or modules.
+
 ### Shadowing
 
 Shadowing allows reusing the same variable name while changing its value or type.
