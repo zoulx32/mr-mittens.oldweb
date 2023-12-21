@@ -163,6 +163,7 @@ use the ufw command-line tool to manage your firewall rules for simplicity and s
 
 
 ### Hierarchy 
+
 | Category                | Packages                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------|
 | Base System             | `base`, `linux`, `grub` or `syslinux`, `e2fsprogs`, `dosfstools`, `dhcpcd`, `iwd` or `wpa_supplicant` |
