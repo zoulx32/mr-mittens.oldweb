@@ -22,14 +22,6 @@ environment, Arch Linux provides the foundation to achieve these goals.
 someone new to the world of privacy and security, this guide if served its purpose will  enlighten you !
 
 
->### [Starting with Network ports & Firewall](#Starting-with-Network-ports-&-Firewall)
-
--  [Firewall Configuring for Arch-linux](Firewall-Configuring-for-Arch-linux)
-
-
-<br>
-
-
 
 ### Starting with Network ports & Firewall !
 
@@ -141,4 +133,46 @@ use the ufw command-line tool to manage your firewall rules for simplicity and s
 | 27017       | MongoDB    | MongoDB Database Server                             |
 
 
-[INCOMPLETE]
+---
+---
+
+
+### Choosing packages necessary
+
+| Aspect             | Elements                                      | Description                                                                                                       | Packages (Arch Linux)                             |
+|--------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Graphics           | **X11**                                       | Efficient and stable graphical system                                                                              | xorg-server, xorg-xinit, xorg-xset                  |
+|                     | **Wayland**                                 | Modern display server protocol known for performance improvements                                                 | wayland, wayland-protocols                                |
+|                     | **GPU Drivers (e.g., NVIDIA, AMD)** | Optimized drivers for graphics processing units                                                                   | xf86-video-nouveau (for NVIDIA), xf86-video-amdgpu (for AMD)    |
+| Audio               | **PulseAudio**                             | Sound server delivering efficient audio processing                                                               | pulseaudio, pulseaudio-alsa, pavucontrol             |
+|                     | **PipeWire**                               | Low-latency audio/video server replacing PulseAudio                                                              | pipewire, pipewire-pulse, pipewire-alsa                  |
+| Display Manager | **SDDM (Simple Desktop Display Manager)** | Lightweight and efficient display manager for login sessions                                                     | sddm                                                          |
+|                     | **LightDM**                                  | Another versatile and widely-used display manager                                                                 | lightdm, lightdm-gtk-greeter                                 |
+|                     | **XDM (X Display Manager)**          | Classic display manager for starting X sessions                                                                  | xorg-xdm, xorg-xdm-xsession                                  |
+| System Components | **Minimal Services/daemons**     | Reducing unnecessary background services for a lean system                                                        | systemd, dbus, cronie, haveged                       |
+|                     | **Efficient Compositors**               | Lightweight compositors for basic desktop effects                                                               | picom, xcompmgr                                                   |
+|                     | **Minimal Startup Applications** | Opting for essential startup applications to enhance system boot time                                             | htop, neofetch, nitrogen, polkit-gnome       |
+| Hardware           | **Fast Storage (SSD/NVMe)**         | Utilizing speedy storage drives for quicker read/write operations                                                | nvme-cli, hdparm                                                    |
+|                     | **Sufficient RAM**                          | Sufficient memory to avoid bottlenecks in multitasking                                                           | memtest86+, swapon, vmstat                                  |
+|                     | **Optimized CPU**                           | High-performance processors to handle computational tasks efficiently                                             | cpupower, stress-ng                                                |
+| Network             | **Fast Internet Connection**            | Ensuring a quick and stable network connection for web-based interactions                                        | speedtest-cli, iperf3, net-tools                           |
+|                     | **Efficient DNS Resolution**         | Using efficient Domain Name System (DNS) servers for quick website lookup                                        | dnsutils, dnsmasq, unbound                                   |
+
+
+> packages may vary but just to get the idea its okay..
+
+
+### Hierarchy 
+| Category                | Packages                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------|
+| Base System             | `base`, `linux`, `grub` or `syslinux`, `e2fsprogs`, `dosfstools`, `dhcpcd`, `iwd` or `wpa_supplicant` |
+| Filesystem Utilities    | `gdisk`, `parted` or `fdisk`                                                                             |
+| Text Editor             | `nano`, `vim`, `emacs` (optional)                                                                        |
+| Utilities               | `base-devel`, `sudo`, `bash-completion`, `which`                                                          |
+| Desktop Environment     | `xorg`, `xorg-xinit`, `dwm` or other window managers/desktop environments                                  |
+| Display Server          | `xorg-server`, `wayland`                                                                                  |
+| Graphics Drivers        | `xf86-video-vesa`, `nvidia`, `xf86-video-amdgpu`, `xf86-video-intel` (specific to your hardware)       |
+| Audio                   | `alsa-utils`, `pulseaudio`                                                                                |
+| Display Manager         | `sddm`, `lightdm`, `xdm`                                                                                  |
+| Browser                 | `firefox`, `chromium`                                                                                     |
+| Terminal Emulator       | `termite`, `alacritty`, `gnome-terminal`, `konsole`                                                       |
