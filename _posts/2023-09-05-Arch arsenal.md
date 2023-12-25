@@ -177,3 +177,8 @@ use the ufw command-line tool to manage your firewall rules for simplicity and s
 | Display Manager         | `sddm`, `lightdm`, `xdm`                                                                                  |
 | Browser                 | `firefox`, `chromium`                                                                                     |
 | Terminal Emulator       | `termite`, `alacritty`, `gnome-terminal`, `konsole`                                                       |
+
+
+
+
+`[INCOMPLETE]`
