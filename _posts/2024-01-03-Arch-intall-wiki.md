@@ -1,5 +1,5 @@
 
-## Arch Linux with KDE Plasma Installation Guide
+## Arch Linux `Install-Wiki`
 
 `: the instuctions here are updated till the release of this guide if some packages wont work then just simply do small research`
 
@@ -61,7 +61,7 @@ also this is not my guide i just use [arch-acetate]() but i will make this even 
    - [Paccache](#paccache)
    - [Cockpit](#install-cockpit)
  - [**Changelog**](#changelog)
-</br>
+
 
 ## Let's begin
 - Grab the latest built ISO Image from **[Arch Linux Download](https://www.archlinux.org/download/)** and write it to an empty USB Stick.
@@ -95,7 +95,7 @@ ping -c 4 google.com
 ```
 timedatectl set-ntp true
 ```
-</br>
+
 
 ## Preparing the Disk for System
 
@@ -167,7 +167,7 @@ swapon /dev/[swap partition name]
 ```
 mount /dev/[root partition name] /mnt
 ```
-</br>
+
 
 ## Base System Installation
 
@@ -192,7 +192,7 @@ pacstrap /mnt base base-devel linux linux-firmware linux-headers nano intel-ucod
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 Check the resulting `/mnt/etc/fstab` file, and edit it in case of errors.
-</br>
+
 
 ## Chroot
 
@@ -312,7 +312,7 @@ exit
 umount -a
 reboot
 ```
-</br>
+
 
 ## Now boot into your freshly installed Arch system
 
@@ -438,13 +438,13 @@ sudo systemctl enable sshd.service
 ```
 reboot
 ```
-</br>
+
 
 ### The Conclusion
 Now everything is installed and after the final `reboot`, you will land in you GUI Login Screen ready to use your system. You can also do some extra steps mentioned below to further improve your experience. I'll recommend you to install `yay` & `paccache`.
 - Yay will provide your packages from AUR (Arch User Repository), which are not available in the Official Repo.
 - Paccache can be used clean pacman cached packages either manually or in an automated way.
-</br>
+
 
 ## Extras (optional)
 
@@ -537,7 +537,7 @@ sudo pacman -S cups
 ```
 sudo systemctl enable --now cups.service
 ```
-</br>
+
 
 ## Theming & Customisations
 
@@ -585,7 +585,7 @@ yay -S kvantum-qt5-git
 sudo pacman -S kvantum
 ```
 
-</br>
+
 
 ## Maintenance, Performance Tuning & Monitoring
 
@@ -638,7 +638,7 @@ sudo systemctl enable --now cockpit.socket
 ```
 Now open your browser and point to it `your-machine-ip:9000` and login with ***root*** to get full access.
 
-</br>
+
 
 
 
