@@ -11,7 +11,7 @@ also this is not my guide i just use [arch-acetate]() but i will make this even 
 
 | Things to do                                   |              Project aim                                              |
 |------------------------------------------|-----------------------------------------------------------------------|
-|First-Part                            | Installation and themeing guide with all WM & DE's.       |
+|First-Part                            | Installation and theming guide with all WM & DE's.       |
 |Second-Part                           |  Void linux guide for installing & theming.  |
 
 
