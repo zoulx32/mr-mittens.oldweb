@@ -1,5 +1,5 @@
 
-## Arch Linux `Install-Wiki`
+## Arch Linux `Eazy-Wiki`
 
 `: the instuctions here are updated till the release of this guide if some packages wont work then just simply do small research`
 
