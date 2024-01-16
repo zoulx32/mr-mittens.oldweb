@@ -3,25 +3,24 @@ layout: page
 title: home | mittens
 ---
 
-```term
-~ $ Hello there 😼
+<details>
+  <summary>
+    <a href="https://asteroidex.com">~ $ Hello there 😼</a>
+    
+  </summary>
+  <pre>
 
-I'm Mittens, a self-taught tech-enthusiast, programmer and data analyst.
-Learning, creating,researching and delving into the world of data science
-is cool for me. im a staunch advocate of decentralization, privacy,
-security and free software. My studies have primarily revolved around
-Operating Systems, Penetration Testing & Networking .I thrive on solving security challenges
-within these domains.decentralized networks like Tor & I2P are still a rant subject for me.
-Operating systems [ studying operating systems, or a system in general], FOSS [Finding alternatives
-for bloated consumer tech] & Data privacy are other things that i do.
+I'm Mittens, a self-taught tech enthusiast, programmer, and data analyst with a focus on data science. I'm passionate about decentralization, privacy, security, and free software. My expertise lies in operating systems, penetration testing, and networking. I enjoy solving security challenges and exploring decentralized networks like Tor and I2P. Studying operating systems, finding alternatives in FOSS, and prioritizing data privacy are my key pursuits.
+</pre>
+</details> 
 
-```
+<details>
+  <summary>
+    <a href="https://asteroidex.com">~ $ ~ $ what's this about 🔎 ?</a>
+    
+  </summary>
+  <pre>
 
-```term
-~ $ what's this about 🔎 ?
-
-Well, im just a guy who loves to spend most of his time in front of a computer,
-but i just forget things ya know, so this archive makes things easier for me.
-if you find any articles helpful here ..wonderful !!
-
-```
+  Hey there! I'm also known as zoul on [youtube](https://www.youtube.com/@zoulvigil/videos) who's hooked on spending most of my time in front of a screen. The catch? I tend to forget things quite often. So, here's my digital archive— that helps me keep everything in check. If you stumble upon any articles that strike a chord with you, that's absolutely fantastic! Enjoy the content!
+</pre>
+</details> 
